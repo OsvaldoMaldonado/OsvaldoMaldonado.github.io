@@ -1,0 +1,54 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url(../images/background_buildings.png);
+    background-repeat: repeat-x;
+    background-color: wheat;
+}
+
+header{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+header img{
+    height: 80px;
+}
+
+main{
+    background-color: sandybrown;
+    min-height: 800px;
+}
+
+footer{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+.datos{
+    text-align: center;
+}
+
+.boton{
+    font-family: inherit;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.datos{
+    text-align: center;
+}

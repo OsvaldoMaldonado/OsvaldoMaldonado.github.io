@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url(../images/background_buildings.png);
+    background-repeat: repeat-x;
+    background-color: rgb(73, 91, 149);
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; /*en el ejes de las y*/
+    justify-content: space-around;
+}
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+header>p{
+    width: 30%;
+}
+
+header div{
+    width: 50%;
+}
+
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+h1,h2,h3{
+    margin: 5px 0px 5px 0px;
+}
+
+nav{
+    background-image: linear-gradient(to right, rgb(224,122,6), rgb(255,225,197));
+    height: 25px;
+    /*padding: 5px 0px;*/
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    height: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav ul li a:hover{
+    background-image: linear-gradient(to left, rgb(224,122,6), rgb(255,225,197));
+}
+
+.banner{
+    width: 1000px;
+}
+
+.principal{
+    background-color: white;
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-around;
+}
+
+.principal main{
+    width: 50%;
+}
+
+.principal aside{
+    width: 35%;
+}
+
+.principal section{
+    margin-bottom: 20px ;
+}
+
+.flotante{
+    float: right;
+    margin-right: 15px;
+}
+
+.fotos-arte{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos-arte img{
+    width: 30%;
+    margin: 5px;
+    border-radius: 10%;
+}
+
+main img{
+    border-radius: 10%;
+}
+
+.enlace-gris{
+    margin-top: 10px;
+    color: #000;
+    text-align: right;
+    display: block;
+}
+
+.enlace-gris:hover{
+    color: gray;
+}
+
+.rojo{
+    color: rgb(178, 0, 0);
+}
+.gris{
+    color: rgb(119, 119, 119);
+}
+
+hr{
+    border-style: dashed;
+}
+
+footer{
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer p{
+    width: 30%;
+}
+
+footer p, footer li, footer a{
+    color: white;
+}
+
+footer div{
+    width: 50%;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+}
+
+footer ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+footer ul li a:hover{
+    color: rgb(120, 153, 222);
+}

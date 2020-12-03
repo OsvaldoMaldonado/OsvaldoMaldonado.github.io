@@ -1,0 +1,46 @@
+table{
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+tr{
+    height: 68px;
+}
+
+header{
+    text-align: center;
+}
+
+
+body {
+    background-color: #9697978e;
+}
+
+.formulacion{
+    background-color: #FFFD82;
+}
+
+.lenguajes{
+    background-color: #a1f870;
+}
+
+.web{
+    background-color: #39F6E5;
+}
+
+.ingles{
+    background-color: #E3F468;
+}
+
+.disenio{
+    background-color: #68D2F4;
+}
+
+.requisitos{
+    background-color: #FF7E7E;
+}
+
+.liderazgo{
+    background-color: #EC9B0E;
+}

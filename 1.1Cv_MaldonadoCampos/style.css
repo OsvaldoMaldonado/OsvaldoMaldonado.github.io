@@ -1,0 +1,41 @@
+#foto{
+    float: left;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+
+#nombre{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+    text-decoration: solid;
+    text-decoration: underline black;
+}
+.fondo{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+header{
+    padding: 20px;
+    background-color: rgba(172, 160, 148, 0.979);
+    height: 150px;
+}
+aside{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: darkgrey;
+    width: 27%;
+    text-align: center;
+}
+main{
+    padding-top: 20px;
+    padding-left: 20px;
+    float: right;
+    width: 70%;
+}

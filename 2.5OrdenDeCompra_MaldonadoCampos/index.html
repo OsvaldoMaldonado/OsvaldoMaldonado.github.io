@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tiendita</title>
+        <meta charset="utf-8">
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/js.png">
+            <h1>Edgar Osvaldo Maldonado Campos</h1>
+        </header>
+        <main>
+            <div class="datos">
+                <label>Producto: </label><br>
+                <select id="productos">
+                    <option value="producto1">Gabinete Asus ROG Strix</option>
+                    <option value="producto2">Mause Logitech G305</option>
+                    <option value="producto3">Memoria RAM DDR4 16GB</option>
+                    <option value="producto4">Mause Alambrico Game Factor</option>
+                </select>
+                <br><br>
+                <label>Precio: </label><br>
+                <input type="text" id="precio">
+                <br><br>
+                <label>Cantidad: </label><br>
+                <input type="text" id="cantidad">
+                <br><br>
+                <button id="agregar" class="boton" onclick="agregar();">Agregar</button>
+                <br><br><br>
+                <table id="tabla">
+                    <thead>
+                        <tr>
+                            <th>Numero: </th>
+                            <th>Producto: </th>
+                            <th>Precio Unitario: </th>
+                            <th>Unidades: </th>
+                            <th>Monto: </th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista">
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="4">Subtotal: </th>
+                            <th id="montosubtotal"></th>
+                        </tr>
+                        <tr>
+                            <th colspan="4">IVA: </th>
+                            <th id="montoiva"></th>
+                        </tr>
+                        <tr>
+                            <th colspan="4">Total a pagar: </th>
+                            <th id="montototal"></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="ejemplo"></div>
+            <br><br>
+        </main>
+        <footer>
+            <h1>Programación web</h1>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url(../images/background_buildings.png);
+    background-repeat: repeat-x;
+    background-color: wheat;
+}
+
+header{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+header img{
+    height: 80px;
+}
+
+main{
+    background-color: sandybrown;
+    min-height: 800px;
+}
+
+main div{
+    padding-top: 40px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    width: 39%;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+footer{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+table{
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+table tr td, th{
+    padding: 5px;
+    border: white 3px solid;
+}
+
+button{
+    font-family: inherit;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    width: 150px;
+}

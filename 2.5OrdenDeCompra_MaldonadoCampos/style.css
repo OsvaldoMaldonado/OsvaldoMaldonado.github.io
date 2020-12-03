@@ -1,0 +1,82 @@
+body{
+    width: 1000px;
+    margin: auto;
+    background-image: url(../images/background_buildings.png);
+    background-repeat: repeat-x;
+    background-color: wheat;
+}
+
+header{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+header img{
+    height: 80px;
+}
+
+main{
+    background-color: sandybrown;
+    min-height: 800px;
+}
+
+footer{
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center; 
+    justify-content: space-around;
+}
+
+select{
+    font-size: 20px;
+    width: 40%;
+}
+
+input{
+    width: 39%;
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+table{
+    font-size: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+    border-collapse: collapse;
+    border: white 3px solid;
+}
+
+table tr th{
+    padding: 5px;
+    border: white 3px solid;
+}
+
+.datos{
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+.boton{
+    font-family: inherit;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    width: 40%;
+}
+
+.datos{
+    text-align: center;
+}
